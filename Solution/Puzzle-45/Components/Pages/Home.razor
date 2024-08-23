@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Blazor Puzzle #45</h1>
+
+<p>This is a .NET 8 Global Server-Side Blazor Web App using Individual Accounts for ASP.NET Core Identity Auth.</p>
+
+<p>We added a config page where the user can configure things (in the real world).</p>
+
+<p>We have created a CascadingAppState component that is accessible as a Cascading Parameter.</p>
+
+<p>It has a CanAccessConfigPage variable that we set to true in the MainLayout.razor OnAfterRenderAsync method on first render.</p>
+
+<p>In the real world, the CanAccessConfigPage variable would be set based on a database (or service) query.</p>
+
+<p>In the NavMenu, we only show the link to the config page if AppState.CanAccessConfigPage is true.</p>
+
+<p>HOWEVER, if we navigate to the Account page (your email address), the NavLink does NOT show up in the NavMenu.</p>
+
+<p>How can we fix this? HINT: The Account pages do not have interactivity, and therefore no state.</p>
+
