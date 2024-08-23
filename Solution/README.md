@@ -1,8 +1,8 @@
 # Blazor Puzzle #45
 
-## No RCL Protection!
+## Where'd my Navlink Go?
 
-YouTube Video: https://youtu.be/
+YouTube Video: https://youtu.be/EXvigihEhmk
 
 Blazor Puzzle Home Page: https://blazorpuzzle.com
 
